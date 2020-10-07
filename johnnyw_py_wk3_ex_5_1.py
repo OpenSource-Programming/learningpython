@@ -12,7 +12,7 @@ while True:
     except:
         print('Invalid input')
         continue
-if total > 0:
+if count > 0:
     print(str(total) + ' ' + str(count) + ' ' + str(total/count))
 else:
     print('0 0 0')
